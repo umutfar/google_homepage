@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+
+        footer {
+            background-color: #F2F2F2;
+            font-size: 14px;
+            height: 40px;
+        }
+
+        .left-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+
+        .right-footer {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+
+        }
+
+        main {
+            margin: 109px;
+            font-size: 14px;
+        }
+
+        main button {
+            margin: 11px 4px;
+            padding: 0px 16px;
+            height: 36px;
+            border-radius: 3px;
+            border: 0;
+            color: #5F6368;
+            background-color: #F3F3F3;
+        }
+
+        nav {
+            
+            padding: 7.5px;
+            font-size: 13px;
+            margin: 10px;
+        }
+
+        nav a {
+            margin: 7.5px;
+            color: #000000;
+        }
+
+        footer a {
+            margin: 13.5px;
+            color: #5F6368;
+        }
+
+        #sign-in {
+            font-weight: 700;
+            background-color: #4486FB;
+            color: #FFFFFF;
+            padding: 8px 12px;
+            border-radius: 2px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .search-container {
+            margin: 20px;
+            padding: 8px;
+        }
+        
+        input {
+            width: 582px;
+            height: 44px;
+            border-radius: 25px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        .icon {
+            position: absolute;
+            right: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">About</a>
+        <a href="">Store</a>
+
+        <span style="float: right;">
+            <a href="">Gmail</a>
+            <a href="">İmages</a>
+            <a href="">Google Apps</a>
+            <a href="" id="sign-in">Sign in</a>
+        </span>
+    </nav>
+
+    <main>
+        <center><img src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></center>
+
+        <center>
+                <div style="position: relative; display: inline-block;">
+                    <input type="text" style="padding-right: 30px;">
+                    <img src="/assets/voicelogo.png" alt="" style="position: absolute; right: 10px; height: 20px;">
+                </div>
+        </center>
+        
+        <center><button>Google Search</button> <button>I'm feeling lucky</button></center>
+    </main>
+    
+
+    <footer class="left-footer">
+        <a href="">Advertising</a> <a href="">Business</a> <a href=""> How Search works</a>
+    </footer>
+
+    <footer class="right-footer">
+        <span style="float: right;"><a href="">Privacy</a> <a href="">Terms</a> <a href="">Settings</a></span>
+    </footer>
+</body>
+</html>
